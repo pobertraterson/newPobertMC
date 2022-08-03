@@ -1,0 +1,120 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(ubuntufont.ttf);
+}
+body {
+    font-family: ubuntu;
+    color: white;
+}
+.bluediv {
+    background-color: #3484ed;
+    width: 100%;
+    height: 3.6vw;
+    bottom: 0;
+    position: absolute;
+}
+.bluediv p {
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    font-size: 3vw;
+}
+.pagetitle {
+    margin-top: -3%;
+    height: 14vw;
+    width: 100%;
+    text-align:center; 
+    font-size:3vw;
+    color: white;
+    background-image: url('ohdeargodilookterriblecrop.png');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+.questions {
+    margin-left: 10px;
+    color: white;
+    font-size: 1.5vw;
+    width:50%;
+}
+.questions li {
+    text-indent: 50px;
+}
+.banner {
+    display: inline-block;
+    margin-top: -7.5px;
+    margin-left:-7px;
+    color: white;
+    background-color: #0D1721;
+    width: 100%;
+    height: 4vw;
+    padding: 3px;
+}
+.banner p {
+    margin-left: 10px;
+    float: left;
+    border: white; 
+    border-width: 0.25 vw; 
+    border-style: solid; 
+    border-radius: 25px;
+    font-size: 1.25vw;
+}
+a {
+    color: white;
+}
+.floatleft {
+    float: left;
+    margin-left: 20%;
+    width: 25%;
+    color: white;
+}
+.floatright {
+    color: white;
+    float: right;
+    margin-right: 20%;
+    width: 25%;
+}
+.accountlist {
+    color: white;
+    float: left;
+    margin-left: 10%;
+    width: 20%;
+    border: white; 
+    border-width: 0.25 vw; 
+    border-style: solid; 
+    border-radius: 25px;
+}
+.imgcontainer {
+    height: 50%;
+    width: 50%;
+}
+.centerimage {
+    height: 12vw;
+    width: 12vw;
+    object-fit: cover;
+    margin-left: 40%;    
+}
+.setupbox {
+    color: white;
+    margin-left: 10%;
+    width: 80%;
+    border: white; 
+    border-width: 0.25 vw; 
+    border-style: solid; 
+    border-radius: 25px;
+}
+.setupboxleft {
+    float: left;
+    width: 49.5%;
+    color: white;
+}
+.setupboxright {
+    float: right;
+    width: 49.5%;
+    color: white;
+}
+.tweet {
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
