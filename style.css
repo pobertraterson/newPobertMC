@@ -72,6 +72,9 @@ body {
     border-radius: 25px;
     font-size: 1.25vw;
 }
+.mobilebanner {
+    display: none;
+}
 a {
     color: white;
 }
@@ -96,6 +99,7 @@ a {
     border-width: 0.25 vw; 
     border-style: solid; 
     border-radius: 25px;
+    text-align:center;
 }
 .accountlistemail {
     color: white;
@@ -220,7 +224,7 @@ a {
         text-align: left;
         color: white;
         font-size: 85%;
-        width: 96%;
+        width: 93%;
         height:auto; 
     }
     .questions li {
@@ -246,6 +250,16 @@ a {
         font-size: 4vw;
         text-align:center;
 
+    }
+    .mobilebanner {
+        display: contents;
+        margin-left: 10px;
+        float: left;
+        border: white; 
+        border-width: 0.25 vw; 
+        border-style: solid; 
+        border-radius: 25px;
+        font-size: 1.25vw;
     }
     .accountlistemail {
         color: white;
