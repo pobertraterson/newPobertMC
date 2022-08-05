@@ -31,10 +31,23 @@ body {
     background-attachment:fixed;
     background-size: 100% 100%;
 }
+.hometitle {
+    font-size:2vw;
+}
+
+.bordertitle{
+    font-size:2vw;
+    border-color: white;
+    border-style: solid; 
+    border-radius: 50px; 
+    border-width: 0.25vw; 
+    margin-left: 43%;
+    margin-right: 43%;
+}
 .questions {
     margin-left: 10px;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     width:50%;
 }
 .questions li {
@@ -84,6 +97,19 @@ a {
     border-style: solid; 
     border-radius: 25px;
 }
+.accountlistemail {
+    color: white;
+    float: left;
+    margin-left: 10%;
+    width: 20%;
+    border: white; 
+    border-width: 0.25 vw; 
+    border-style: solid; 
+    border-radius: 25px;
+    font-size:0.9vw;
+    text-align:center; 
+    margin-right:10%;
+}
 .imgcontainer {
     height: 50%;
     width: 50%;
@@ -103,6 +129,13 @@ a {
     border-style: solid; 
     border-radius: 25px;
 }
+.frontpagetweet {
+    margin-right:10%;
+    margin-top:5%;
+    color: white;
+    float: right;
+    width: 30%;
+}
 .setupboxleft {
     float: left;
     width: 49.5%;
@@ -113,8 +146,189 @@ a {
     width: 49.5%;
     color: white;
 }
+.hideonmobile {
+    color: white;
+}
+.showonmobile {
+    display: none;
+}
+.leavepage {
+    font-size: 2vw;
+}
 .tweet {
     float: left;
     margin-top: 20px;
     margin-left: 10px;
+}
+@media only screen and (max-width: 700px) {
+    @font-face {
+        font-family: ubuntu;
+        src: url(ubuntufont.ttf);
+    }
+    .hometitle {
+        font-size:2vw;
+    }
+    .bordertitle{
+        font-size:2vw;
+        border-style: solid; 
+        border-radius: 50px; 
+        border-width: 0.25vw; 
+        margin-left: 33%;
+        margin-right: 33%;
+    }
+    .hideonmobile {
+        display: none;
+    }
+    .showonmobile {
+        color: white;
+        display: contents;
+        text-align: center;
+    }
+    body {
+        font-family: ubuntu;
+        color: white;
+        min-width:400px;
+        max-width:700px;
+    }
+    .bluediv {
+        background-color: #3484ed;
+        max-width:700px;
+        min-width:400px;
+        height: 9vw;
+        bottom: 0;
+        position: fixed;
+    }
+    .bluediv p {
+        color: #ffffff;
+        margin: auto;
+        text-align: center;
+        font-size: 6vw;
+    }
+    .pagetitle {
+        margin-top: -3%;
+        height: 22vw;
+        width: 100%;
+        text-align:center; 
+        font-size:3vw;
+        color: white;
+        background-image: url('ohdeargodilookterriblecrop.png');
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-size:100% 53vw;
+    }
+    .questions {
+        text-align: left;
+        color: white;
+        font-size: 85%;
+        width: 96%;
+        height:auto; 
+    }
+    .questions li {
+        text-align: right;
+        text-indent: 0%
+    }
+    .banner {
+        display: inline-block;
+        margin-top: -7.5px;
+        color: white;
+        background-color: #0D1721;
+        width: 100%;    
+        height: 28vw;
+        padding: 3px;
+    }
+    .banner p {
+        margin-left: 10px;
+        float: left;
+        border: white; 
+        border-width: 0.25 vw; 
+        border-style: solid; 
+        border-radius: 25px;
+        font-size: 4vw;
+        text-align:center;
+
+    }
+    .accountlistemail {
+        color: white;
+        font-size:2vw;
+        text-align:center; 
+    }
+    a {
+        color: white;
+    }
+    .floatleft {
+        float: left;
+        text-align: left;
+        margin-left: 10%;
+        width: 20%;
+        color: white;
+    }
+    .floatright {
+        text-align:right;
+        color: white;
+        float: right;
+        margin-right: 10%;
+        width: 20%;
+    }
+    .accountlist {
+        margin-left:20%;
+        margin-top: 3px;
+        text-align:center;
+        color: white;
+        width: 60%;
+        border: white; 
+        border-width: 0.25 vw; 
+        border-style: solid; 
+        border-radius: 25px;
+    }
+    .imgcontainer {
+        height: 60%;
+        width: 60%;
+        margin-left:5%;
+    }
+    .centerimage {
+        height: 14vw;
+        width: 14vw;
+        object-fit: cover;
+        margin-left: 50%;    
+    }
+    .setupbox {
+        color: white;
+        margin-left: 10%;
+        width: 80%;
+        border: white; 
+        border-width: 0.25 vw; 
+        border-style: solid; 
+        border-radius: 25px;
+    }
+    .setupboxleft {
+        float: left;
+        width: 49.5%;
+        color: white;
+    }
+    .setupboxright {
+        float: right;
+        width: 49.5%;
+        color: white;
+    }
+    .frontpagetweet {
+        margin-right:60%;
+        display: none;
+        overflow: hidden;
+    }
+    .tweet {
+        float: left;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .pagetitle p{
+        font-size: 3.5vw;
+        color: white;
+    }
+    .pagetitle h1{
+        font-size: 9vw;
+        color: white;
+    }
+    .leavepage {
+        font-size: 10vw;
+    }
 }
