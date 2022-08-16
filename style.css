@@ -72,6 +72,16 @@ body {
     border-radius: 25px;
     font-size: 1.25vw;
 }
+.checkfortor {
+    margin-top: 1.25vw;
+    margin-left: 10px;
+    float: left;
+    border: white; 
+    border-width: 0.25 vw; 
+    border-style: solid; 
+    border-radius: 25px;
+    font-size: 1.25vw;
+}
 .mobilebanner {
     display: none;
 }
@@ -219,6 +229,9 @@ a {
         background-repeat:no-repeat;
         background-attachment:fixed;
         background-size:100% 53vw;
+    }
+    .checkfortor {
+        display: none;
     }
     .questions {
         text-align: left;
