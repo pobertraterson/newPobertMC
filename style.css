@@ -98,14 +98,14 @@ a {
 .floatleft {
     float: left;
     margin-left: 20%;
-    width: 25%;
+    width: 27.5%;
     color: white;
 }
 .floatright {
     color: white;
     float: right;
     margin-right: 20%;
-    width: 25%;
+    width: 27.5%;
 }
 .accountlist {
     color: white;
@@ -311,18 +311,18 @@ a {
         color: white;
     }
     .floatleft {
-        float: left;
-        text-align: left;
-        margin-left: 10%;
-        width: 20%;
+        float: none;
         color: white;
+        margin-right:20%;
+        margin-left:20%;
+        width:60%;
     }
     .floatright {
-        text-align:right;
+        float:none;
         color: white;
-        float: right;
-        margin-right: 10%;
-        width: 20%;
+        margin-right: 20%;
+        margin-left:20%;
+        width: 60%;
     }
     .pageselect {
         text-align: center;
