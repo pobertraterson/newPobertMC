@@ -9,6 +9,10 @@ body {
     margin-top:0px;
     margin: 0px;
 }
+.light-mode {
+    color: #000000;
+    background-color: #ffffff; 
+}
 .bluediv {
     background-color: #3484ed;
     width: 100%;
@@ -212,8 +216,13 @@ a {
     body {
         font-family: ubuntu;
         color: white;
+        background-color: #1D2A35;
         min-width:400px;
         max-width:650px;
+    }
+    .light-mode {
+        color: #000000;
+        background-color: #ffffff;
     }
     .bluediv {
         background-color: #3484ed;
