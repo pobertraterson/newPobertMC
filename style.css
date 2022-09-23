@@ -5,6 +5,9 @@
 body {
     font-family: ubuntu;
     color: white;
+    background-color: #1D2A35; 
+    margin-top:0px;
+    margin: 0px;
 }
 .bluediv {
     background-color: #3484ed;
@@ -182,7 +185,7 @@ a {
     margin-top: 20px;
     margin-left: 10px;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 650px) {
     @font-face {
         font-family: ubuntu;
         src: url(ubuntufont.ttf);
@@ -210,7 +213,7 @@ a {
         font-family: ubuntu;
         color: white;
         min-width:400px;
-        max-width:700px;
+        max-width:650px;
     }
     .bluediv {
         background-color: #3484ed;
@@ -258,8 +261,16 @@ a {
         color: white;
         background-color: #0D1721;
         width: 100%;    
-        height: 28vw;
+        height: 14vw;
         padding: 3px;
+    }
+    .mobilemenuclass {
+        margin-top:3.4vw;
+        text-align:center;
+        font-size:6vw;
+        float:none; 
+        margin-left:40vw;
+        margin-right:40vw;
     }
     .banner p {
         margin-left: 10px;
