@@ -118,10 +118,9 @@ button {
     font-family: ubuntu;
     text-decoration: underline;
     cursor: pointer;
-    margin-right: 10px;
     color: white;
     border: white; 
-    border-width: 0.25 vw; 
+    border-width: 0.5 vw; 
     border-style: solid; 
     border-radius: 25px;
     font-size: 1.25vw;
@@ -238,7 +237,7 @@ button {
         color: white;
         background-color: #1D2A35;
         min-width:400px;
-        max-width:650px;
+        max-width:600px;
     }
     .light-mode {
         color: #000000;
@@ -256,6 +255,21 @@ button {
         bottom: 0;
         position: fixed;
     }
+    button {
+        background: none!important;
+        border: none;
+        padding: 0!important;
+        font-family: ubuntu;
+        text-decoration: underline;
+        cursor: pointer;
+        color: white;
+        border: white; 
+        border-width: 0.5 vw; 
+        border-style: solid; 
+        border-radius: 25px;
+        font-size: 1.25vw;
+        margin-top:20px;
+      }
     .bluediv p {
         color: #ffffff;
         margin: auto;
