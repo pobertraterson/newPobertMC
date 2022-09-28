@@ -119,7 +119,7 @@ button {
     text-decoration: underline;
     cursor: pointer;
     margin-right: 10px;
-    float: right;
+    color: white;
     border: white; 
     border-width: 0.25 vw; 
     border-style: solid; 
