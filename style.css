@@ -123,7 +123,7 @@ button {
     border-width: 0.5 vw; 
     border-style: solid; 
     border-radius: 25px;
-    font-size: 1.25vw;
+    font-size: 20px;
     margin-top:20px;
   }
 .accountlist {
@@ -208,7 +208,7 @@ button {
     margin-top: 20px;
     margin-left: 10px;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
     @font-face {
         font-family: ubuntu;
         src: url(ubuntufont.ttf);
@@ -264,11 +264,12 @@ button {
         cursor: pointer;
         color: white;
         border: white; 
-        border-width: 0.5 vw; 
+        border-width: 0.25 vw; 
         border-style: solid; 
-        border-radius: 25px;
-        font-size: 1.25vw;
+        border-radius: 30px;
+        font-size: 3vw;
         margin-top:20px;
+        margin: left 0.75%; 
       }
     .bluediv p {
         color: #ffffff;
@@ -276,14 +277,6 @@ button {
         text-align: center;
         font-size: 6vw;
     }
-    button {
-        background: none!important;
-        border: none;
-        padding: 0!important;
-        font-family: ubuntu;
-        text-decoration: underline;
-        cursor: pointer;
-      }
     .pagetitle {
         margin-top: -3%;
         height: 22vw;
