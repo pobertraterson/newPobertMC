@@ -74,6 +74,18 @@ body {
     height: 4vw;
     padding: 3px;
 }
+.fttr {
+    background-color: #0a1621;
+    width:100%;
+    left:0;
+    bottom:0;
+    color:#9c9c9c;
+    height:6%;
+    position: fixed;
+    font-size:20px;
+    text-align:left;
+
+}
 .banner p {
     margin-left: 10px;
     float: left;
