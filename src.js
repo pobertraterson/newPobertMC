@@ -18,3 +18,11 @@ function shownhide() {
       x.style.display = "none";
     }
   }
+  function toggleVideos() {
+    var x = document.getElementById("vids");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
