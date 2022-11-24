@@ -248,7 +248,7 @@ button {
         font-family: ubuntu;
         color: white;
         background-color: #1D2A35;
-        min-width:400px;
+        min-width:300px;
         max-width:600px;
     }
     .light-mode {
