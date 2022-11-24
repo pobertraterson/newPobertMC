@@ -1,226 +1,228 @@
-@font-face {
-    font-family: ubuntu;
-    src: url(ubuntufont.ttf);
-}
-body {
-    font-family: ubuntu;
-    color: white;
-    background-color: #1D2A35; 
-    margin-top:0px;
-    margin: 0px;
-}
-.light-mode {
-    color: #000000;
-    background-color: #ffffff; 
-}
-.bannermode {
-    color: #ffffff;
-    background-color: #586D81;
-}
-.bluediv {
-    background-color: #3484ed;
-    width: 100%;
-    height: 3.6vw;
-    bottom: 0;
-    position: absolute;
-}
-.bluediv p {
-    color: #ffffff;
-    margin: auto;
-    text-align: center;
-    font-size: 3vw;
-}
-.pagetitle {
-    margin-top: -3%;
-    height: 15vw;
-    width: 100%;
-    text-align:center; 
-    font-size:3vw;
-    color: white;
-    background-image: url('ohdeargodilookterriblecrop.png');
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-size: 100% 53vw;
-}
-.hometitle {
-    font-size:2vw;
-}
+@media only screen and (min-width:700px) {
+    @font-face {
+        font-family: ubuntu;
+        src: url(ubuntufont.ttf);
+    }
+    body {
+        font-family: ubuntu;
+        color: white;
+        background-color: #1D2A35; 
+        margin-top:0px;
+        margin: 0px;
+    }
+    .light-mode {
+        color: #000000;
+        background-color: #ffffff; 
+    }
+    .bannermode {
+        color: #ffffff;
+        background-color: #586D81;
+    }
+    .bluediv {
+        background-color: #3484ed;
+        width: 100%;
+        height: 3.6vw;
+        bottom: 0;
+        position: absolute;
+    }
+    .bluediv p {
+        color: #ffffff;
+        margin: auto;
+        text-align: center;
+        font-size: 3vw;
+    }
+    .pagetitle {
+        margin-top: -3%;
+        height: 15vw;
+        width: 100%;
+        text-align:center; 
+        font-size:3vw;
+        color: white;
+        background-image: url('ohdeargodilookterriblecrop.png');
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size: 100% 53vw;
+    }
+    .hometitle {
+        font-size:2vw;
+    }
 
-.bordertitle{
-    font-size:2vw;
-    border-color: white;
-    border-style: solid; 
-    border-radius: 50px; 
-    border-width: 0.25vw; 
-    margin-left: 40%;
-    margin-right: 40%;
-}
-.questions {
-    margin-left: 10px;
-    color: white;
-    font-size: 1.3vw;
-    width:50%;
-}
-.questions li {
-    text-indent: 50px;
-}
-.banner {
-    display: inline-block;
-    margin-top: -7.5px;
-    margin-left:-7px;
-    color: white;
-    background-color: #0D1721;
-    width: 100%;
-    height: 4vw;
-    padding: 3px;
-}
-.fttr {
-    background-color: #0a1621;
-    width:100%;
-    left:0;
-    bottom:0;
-    color:#9c9c9c;
-    height:6%;
-    position: fixed;
-    font-size:1.1vw;
-    text-align:left;
+    .bordertitle{
+        font-size:2vw;
+        border-color: white;
+        border-style: solid; 
+        border-radius: 50px; 
+        border-width: 0.25vw; 
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    .questions {
+        margin-left: 10px;
+        color: white;
+        font-size: 1.3vw;
+        width:50%;
+    }
+    .questions li {
+        text-indent: 50px;
+    }
+    .banner {
+        display: inline-block;
+        margin-top: -7.5px;
+        margin-left:-7px;
+        color: white;
+        background-color: #0D1721;
+        width: 100%;
+        height: 4vw;
+        padding: 3px;
+    }
+    .fttr {
+        background-color: #0a1621;
+        width:100%;
+        left:0;
+        bottom:0;
+        color:#9c9c9c;
+        height:6%;
+        position: fixed;
+        font-size:1.1vw;
+        text-align:left;
 
-}
-.banner p {
-    margin-left: 10px;
-    float: left;
-    border: white; 
-    border-width: 0.25 vw; 
-    border-style: solid; 
-    border-radius: 25px;
-    font-size: 1.25vw;
-}
-.checkfortor {
-    margin-top: 1.25vw;
-    margin-left: 10px;
-    float: left;
-    border: white; 
-    border-width: 0.25 vw; 
-    border-style: solid; 
-    border-radius: 25px;
-    font-size: 1.25vw;
-}
-.mobilebanner {
-    display: none;
-}
-a {
-    color: white;
-}
-.floatleft {
-    float: left;
-    margin-left: 20%;
-    width: 27.5%;
-    color: white;
-}
-.floatright {
-    color: white;
-    float: right;
-    margin-right: 20%;
-    width: 27.5%;
-}
-button {
-    background: none!important;
-    border: none;
-    padding: 0!important;
-    font-family: ubuntu;
-    text-decoration: underline;
-    cursor: pointer;
-    color: white;
-    border: white; 
-    border-width: 0.5 vw; 
-    border-style: solid; 
-    border-radius: 25px;
-    font-size: 20px;
-    margin-top:20px;
-  }
-.accountlist {
-    color: white;
-    float: left;
-    margin-left: 10%;
-    width: 20%;
-    border: white; 
-    border-width: 0.25 vw; 
-    border-style: solid; 
-    border-radius: 25px;
-    text-align:center;
-}
-.accountlistemail {
-    color: white;
-    float: left;
-    margin-left: 10%;
-    width: 20%;
-    border: white; 
-    border-width: 0.25 vw; 
-    border-style: solid; 
-    border-radius: 25px;
-    font-size:0.9vw;
-    text-align:center; 
-    margin-right:10%;
-}
-.imgcontainer {
-    height: 50%;
-    width: 50%;
-}
-.centerimage {
-    height: 12vw;
-    width: 12vw;
-    object-fit: cover;
-    margin-left: 40%;    
-}
-.setupbox {
-    color: white;
-    margin-left: 10%;
-    width: 80%;
-    border: white; 
-    border-width: 0.25 vw; 
-    border-style: solid; 
-    border-radius: 25px;
-}
-.pageselect {
-    text-align: center;
-    border: white; 
-    border-style: solid; 
-    border-radius: 25px;
-    font-size: 30px;
+    }
+    .banner p {
+        margin-left: 10px;
+        float: left;
+        border: white; 
+        border-width: 0.25 vw; 
+        border-style: solid; 
+        border-radius: 25px;
+        font-size: 1.25vw;
+    }
+    .checkfortor {
+        margin-top: 1.25vw;
+        margin-left: 10px;
+        float: left;
+        border: white; 
+        border-width: 0.25 vw; 
+        border-style: solid; 
+        border-radius: 25px;
+        font-size: 1.25vw;
+    }
+    .mobilebanner {
+        display: none;
+    }
+    a {
+        color: white;
+    }
+    .floatleft {
+        float: left;
+        margin-left: 20%;
+        width: 27.5%;
+        color: white;
+    }
+    .floatright {
+        color: white;
+        float: right;
+        margin-right: 20%;
+        width: 27.5%;
+    }
+    button {
+        background: none!important;
+        border: none;
+        padding: 0!important;
+        font-family: ubuntu;
+        text-decoration: underline;
+        cursor: pointer;
+        color: white;
+        border: white; 
+        border-width: 0.5 vw; 
+        border-style: solid; 
+        border-radius: 25px;
+        font-size: 20px;
+        margin-top:20px;
+    }
+    .accountlist {
+        color: white;
+        float: left;
+        margin-left: 10%;
+        width: 20%;
+        border: white; 
+        border-width: 0.25 vw; 
+        border-style: solid; 
+        border-radius: 25px;
+        text-align:center;
+    }
+    .accountlistemail {
+        color: white;
+        float: left;
+        margin-left: 10%;
+        width: 20%;
+        border: white; 
+        border-width: 0.25 vw; 
+        border-style: solid; 
+        border-radius: 25px;
+        font-size:0.9vw;
+        text-align:center; 
+        margin-right:10%;
+    }
+    .imgcontainer {
+        height: 50%;
+        width: 50%;
+    }
+    .centerimage {
+        height: 12vw;
+        width: 12vw;
+        object-fit: cover;
+        margin-left: 40%;    
+    }
+    .setupbox {
+        color: white;
+        margin-left: 10%;
+        width: 80%;
+        border: white; 
+        border-width: 0.25 vw; 
+        border-style: solid; 
+        border-radius: 25px;
+    }
+    .pageselect {
+        text-align: center;
+        border: white; 
+        border-style: solid; 
+        border-radius: 25px;
+        font-size: 30px;
 
+    }
+    .frontpagetweet {
+        margin-right:10%;
+        margin-top:5%;
+        color: white;
+        float: right;
+        width: 30%;
+    }
+    .setupboxleft {
+        float: left;
+        width: 49.5%;
+        color: white;
+    }
+    .setupboxright {
+        float: right;
+        width: 49.5%;
+        color: white;
+    }
+    .hideonmobile {
+        color: white;
+    }
+    .showonmobile {
+        display: none;
+    }
+    .leavepage {
+        font-size: 2vw;
+    }
+    .tweet {
+        float: left;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
 }
-.frontpagetweet {
-    margin-right:10%;
-    margin-top:5%;
-    color: white;
-    float: right;
-    width: 30%;
-}
-.setupboxleft {
-    float: left;
-    width: 49.5%;
-    color: white;
-}
-.setupboxright {
-    float: right;
-    width: 49.5%;
-    color: white;
-}
-.hideonmobile {
-    color: white;
-}
-.showonmobile {
-    display: none;
-}
-.leavepage {
-    font-size: 2vw;
-}
-.tweet {
-    float: left;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-@media only screen and (min-width:400px) and (max-width: 700px) {
+@media only screen and (min-width:1px) {
     @font-face {
         font-family: ubuntu;
         src: url(ubuntufont.ttf);
