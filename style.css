@@ -166,11 +166,20 @@ button {
     height: 50%;
     width: 50%;
 }
+.imgcontainerYouTube {
+    height: 50%;
+}
 .centerimage {
     height: 12vw;
     width: 12vw;
     object-fit: cover;
     margin-left: 40%;    
+}
+.centerimageYouTube {
+    object-fit:contain;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
 }
 .setupbox {
     color: white;
@@ -288,6 +297,15 @@ button {
         margin: auto;
         text-align: center;
         font-size: 6vw;
+    }
+    .imgcontainerYouTube {
+        height: 50%;
+    }
+    .centerimageYouTube {
+        object-fit:contain;
+        margin-left: auto;
+        margin-right: auto;
+        display: block; 
     }
     .pagetitle {
         margin-top: -3%;
