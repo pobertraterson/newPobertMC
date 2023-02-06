@@ -229,10 +229,39 @@ button {
     margin-top: 20px;
     margin-left: 10px;
 }
+.floatVideosPageDiv {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    margin-top:40px;
+}
+.floatVideo {
+    width: 333px;
+    float: left;
+    margin-left:2.5%;
+}
+.floatVideoLeftest {
+    width: 333px;
+    float: left;
+    margin-left:11%;
+}
 @media only screen and (max-width: 600px) {
     @font-face {
         font-family: ubuntu;
         src: url(ubuntufont.ttf);
+    }
+    .floatVideosPageDiv {
+        margin: auto;
+        width: 90%;
+    }
+    .floatVideoLeftest {
+        width: 333px;
+        margin: auto;
+    }
+    .floatVideo {
+        width: 333px;
+        margin-top: 10px;
+        margin: auto;
     }
     .hometitle {
         font-size:2vw;

@@ -2,6 +2,10 @@ function darklight() {
     var element = document.body;
     element.classList.toggle("light-mode");
 }
+function resizeIframe(obj) {
+    obj.style.height = 0;
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+}
 function bannermode() {
     var element = document.getElementById("banner-1");
     if (backgroundColor == "#0D1721") {
