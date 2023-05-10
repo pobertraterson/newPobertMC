@@ -94,6 +94,13 @@ body {
     border-style: solid; 
     border-radius: 25px;
     font-size: 1.25vw;
+    transition: 0.3s;
+}
+.banner a {
+    transition: 0.3s;
+}
+.banner a:hover {
+    filter: invert(0.25);
 }
 .checkfortor {
     margin-top: 1.25vw;
