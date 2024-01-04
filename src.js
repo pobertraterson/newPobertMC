@@ -11,7 +11,7 @@ window.addEventListener('scroll', function() {
 
 //thanks w3schools.com
 function openNavPanel() {
-  document.getElementById('sidenav').style.width = "250px";
+  document.getElementById('sidenav').style.width = "300px";
 }
 function closeNavPanel() {
   document.getElementById('sidenav').style.width = "0";

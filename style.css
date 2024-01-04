@@ -13,6 +13,12 @@ body {
 .homepage h1 {
     font-size: 48px;
 }
+.desktopOnlyBanner{
+    display: block;
+}
+.mobileOnlyBanner{
+    display: none;
+}
 a {
     text-decoration: none;
     transition: 0.3s;
@@ -60,6 +66,44 @@ a:hover {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+.bannerRightSide {
+    float: right;
+    margin-right: 5%;
+    position: initial;
+    top: 50%;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 300001; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    color: #ffffff;
+    background-color: #1d2126;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+}
+    
+    /* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    filter: invert(0.25);
+} 
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 .bannerh1Container h1{
     position: relative;
@@ -117,6 +161,14 @@ a:hover {
     .floatRight {
         margin-top: 20px;
         float: none;
+    }
+}
+@media only screen and (max-width: 747px) {
+    .desktopOnlyBanner{
+        display: none;
+    }
+    .mobileOnlyBanner{
+        display: block;
     }
 }
 @media only screen and (max-width: 700px) {
