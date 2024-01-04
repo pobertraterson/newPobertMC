@@ -1,32 +1,16 @@
-function darklight() {
-    var element = document.body;
-    element.classList.toggle("light-mode");
-}
-function resizeIframe(obj) {
-    obj.style.height = 0;
-    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-}
-function bannermode() {
-    var element = document.getElementById("banner-1");
-    if (backgroundColor == "#0D1721") {
-    element.style.backgroundColor = "#586D81";
+window.addEventListener('scroll', function() {
+    var myDiv = document.getElementById('banner');
+    
+    // Get the distance from the top of the page to the div
+    var divOffset = myDiv.offsetTop;
+    
+    // Get the current scroll position
+    var scrollPosition = window.scrollY || window.pageYOffset;
+    
+    // Change the background color if the div is not at the top
+    if (scrollPosition > divOffset) {
+      myDiv.style.backgroundColor = `rgba(29, 33, 38, 75%)`;
     } else {
-        element.style.backgroundColor = "#0D1721";
+      myDiv.style.backgroundColor = 'transparent';
     }
-}
-function shownhide() {
-    var x = document.getElementById("lupdate");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-  function toggleVideos() {
-    var x = document.getElementById("vids");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+});
