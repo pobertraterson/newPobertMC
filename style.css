@@ -76,8 +76,15 @@ a:hover {
     width: 100%;
 }
 .memContentYT {
+    transition: 0.3s;
     height: 315;
     width: 560;
+}
+.floatLeft {
+    float: inline-start;
+}
+.floatRight {
+    float: inline-end;
 }
 @media only screen and (max-width: 1867px) {
     .memContentYT {
@@ -95,6 +102,29 @@ a:hover {
     .socialsContainer {
         width: 20%;
         margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 934px) {
+    .memContentYT {
+        margin-left: auto;
+        margin-right: auto;
+        height: 236.25;
+        width: 420;
+    }
+    .floatLeft {
+        float: none;
+    }
+    .floatRight {
+        margin-top: 20px;
+        float: none;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .memContentYT {
+        margin-left: auto;
+        margin-right: auto;
+        height: 157.5;
+        width: 280;
     }
 }
 @media only screen and (max-width: 595px) {
