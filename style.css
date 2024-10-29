@@ -117,7 +117,16 @@ a:hover {
     float: left;
     padding: 0;
 }
+.columnRight {
+    width: 33.3%;
+    float: right;
+    padding: 0;
+}
 .column img {
+    height: 30px;
+    width: 30px;
+}
+.columnRight img {
     height: 30px;
     width: 30px;
 }
@@ -176,6 +185,11 @@ a:hover {
         float: left;
         padding: 0;
     }
+    .columnRight {
+        width: 33.3%;
+        float: right;
+        padding: 0;
+    }
 }
 @media only screen and (max-width: 747px) {
     .desktopOnlyBanner{
@@ -227,4 +241,5 @@ a:hover {
         height: 50px;
         width: 50px;
     }
+
 }
