@@ -241,5 +241,8 @@ a:hover {
         height: 50px;
         width: 50px;
     }
-
+    .columnRight img {
+        height: 50px;
+        width: 50px;
+    }
 }
