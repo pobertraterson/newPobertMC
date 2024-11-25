@@ -9,6 +9,10 @@ window.addEventListener('scroll', function() {
     }
 });
 
+function unavailable() {
+    alert("Sorry, this feature is currently unavailable.");
+}
+
 //thanks w3schools.com
 function openNavPanel() {
   document.getElementById('sidenav').style.width = "300px";
