@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const currentMoment = new Date();
             const expiry = new Date(data.expiry);
             console.log(currentMoment);
-            if (!(currentMoment < expiry)) {
+            if (currentMoment < expiry) {
                 alertBox.style.display = "block";
                 alertHeader.innerHTML = data.title;
                 alertText.innerHTML = data.mainMsg;
