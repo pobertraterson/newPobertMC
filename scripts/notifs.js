@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 alertBox.style.display = "none";
             }
             closeAlert.addEventListener("click", () => {
-                localStorage.setItem('alertLevelAcknowledged', 1);
+                localStorage.setItem('alertLevelAcknowledged', data.id);
                 alertBox.style.display = "none";
             });
         })
