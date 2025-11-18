@@ -113,6 +113,17 @@ a:hover {
 .bannerh1Container h1{
     position: relative;
 }
+.alertBox {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    width: 100%;
+    min-height: 150px;
+    display:none;
+    margin:0;
+    top: 0;
+    position: absolute;
+    z-index: 999999;
+}
 .socialsContainer {
     margin-left: 35%;
     width: 30%;
